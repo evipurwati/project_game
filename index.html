@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./assets/css/game.css" />
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <title>Hit The Mosquitos</title>
+</head>
+
+<body>
+    <embed src="./assets/audio/game.mp3" height="0" loop="true" autostarts="true" class="music">
+    <div id="arena"><img src="./assets/img/bee.png" id="gambar" onclick="nilai()" width="100px" height="100px" />
+    </div>
+    <div class="row" style="text-align: center">
+        <span id="waktu">Time Left : </span><span id="time"></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="angka">Score : </span><input type="text" id="score" class="text" />
+    </div>
+    <br>
+    <div class="row" style="text-align: center">
+        <a href="#" onclick="start()" id="start" style="text-align: center">START</a>
+    </div>
+
+    <script src="./assets/js/game.js"></script>
+</body>
+
+</html>

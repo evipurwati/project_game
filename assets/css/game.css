@@ -1,0 +1,31 @@
+body{
+    font-family: 'Luckiest Guy', cursive;
+    background-color: #9ACD32;
+    font-size: 30px;
+}
+
+.opening-body{
+    text-align: center;
+}
+
+p{
+    font-family: 'Righteous', cursive; 
+    font-size: 20px;
+}
+
+.judul {
+    margin-top: 50px;
+}
+
+.gambar {
+    width: 350px;
+    height: 350px;
+}
+
+#arena {
+    width:1280px; 
+    height: 400px; 
+    background-color:#9ACD32; 
+    padding:20px 20px 20px 20px; 
+    border-radius:20px;
+}
